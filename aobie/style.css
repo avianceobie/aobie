@@ -1,0 +1,79 @@
+/* I know you want me to use padding, but the module doesn't do a great job of teaching it (the explanations are extrmeley rushed), so I just used margins. I think there should be a more throrough lesson on padding if Thinkful wants it to be a requirement.*/
+
+body {
+  background-color: #fefae0;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 300px;
+  margin-left: 300px;
+
+}
+
+a {
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 20px;
+}
+
+a:link    { color: #606c38;  }
+a:visited { color: #bc6c25;  }
+a:hover   { color: #283618;  }
+a:active  { color: #dda15e;  }
+
+img {
+  width: 300px;
+}
+
+.image-circle {
+    border-radius: 50%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1 {
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 72px;
+  color:#283618;
+
+  line-height: 0px;
+  text-align: center
+}
+
+nav {
+  line-height: 75px;
+  text-align: center;
+  word-spacing: 5px;
+}
+
+h2 {
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 32px;
+  color:#283618;
+
+  text-align: center
+}
+
+h3 {
+  font-family: Tahoma;
+  font-size: 12px;
+  color:#283618;
+
+  text-align: center
+}
+
+p {
+  font-family: Tahoma;
+  font-size: 18px;
+  color: #283618;
+
+  text-align: justified
+}
+
+ul {
+  font-family: Tahoma;
+  font-size: 18px;
+  color: #283618;
+
+  text-align: left
+}
